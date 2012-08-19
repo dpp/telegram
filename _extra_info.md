@@ -1,5 +1,5 @@
 ---
-blog_root: /
+blog_root: /posts
 site_title: Test Telegram
 
 ---
