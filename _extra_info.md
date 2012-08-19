@@ -1,6 +1,6 @@
 ---
-blog_root: /blog_posts
-site_title: My Blog
+blog_root: /
+site_title: Test Telegram
 
 ---
 

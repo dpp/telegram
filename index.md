@@ -9,4 +9,4 @@ for information on how to set up your site.
       <div data-lift="blog.simple"></div>
 </div>
 
-[title: Home]: /
+[title: Telegram Test]: /
