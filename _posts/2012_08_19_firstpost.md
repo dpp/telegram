@@ -18,8 +18,8 @@ With a list:
  -    first item
   -    second item
   
- and one more list
- -----------------
+and one more list
+-----------------
 
 * first item
 * second item
