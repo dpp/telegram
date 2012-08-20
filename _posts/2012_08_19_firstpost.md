@@ -13,8 +13,8 @@ With a list:
  * second item
  
  and another list
-  - first item
-  - second item
+  -    first item
+  -    second item
   
  and one more list
  -----------------
