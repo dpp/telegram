@@ -9,14 +9,17 @@ Header
 Here is my first post on telegram. the list isn't working yet.
 
 With a list:
+
  * first item
  * second item
  
  and another list
-  -    first item
+
+ -    first item
   -    second item
   
  and one more list
  -----------------
-  * first item
-  * second item
+
+* first item
+* second item
