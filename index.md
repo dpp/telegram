@@ -2,4 +2,4 @@
       <div data-lift="blog.simple"></div>
 </div>
 
-[title: Stuff of Interest]: /
+[title: Blog]: /
