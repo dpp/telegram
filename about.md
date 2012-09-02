@@ -1,10 +1,6 @@
 ## About 
 
-I blog here.  This is a page that tells people about me.
-
-## Contact Me
-
-You can put some contact information here
+Collection of items of interest, and for collection of knowledge for future reference.
 
 [title: About]: /
 [order: 20]: /

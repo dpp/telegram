@@ -1,6 +1,6 @@
 ---
 blog_root: /posts
-site_title: Test Telegram
+site_title: Stuff of Interest
 
 ---
 
