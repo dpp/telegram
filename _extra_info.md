@@ -1,6 +1,8 @@
 ---
 blog_root: /posts
 site_title: Stuff of Interest
+template_url: https://github.com/telegr-am/template-blue.git
+
 
 ---
 

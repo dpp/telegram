@@ -1,5 +1,5 @@
-title: Getting Started
-order: 40
+[title: Getting Started]: /
+[order: 40]: /
 
 This page will help you get started with Telegram!  Yay!
 
@@ -131,3 +131,4 @@ Add Google Analytics to the page:
 
 Note that the Google Analytics snippet uses the `tail` snippet so that the actual Google
 Analytics JavaScript code appears on the bottom of the page… just before the `</body>` tag.
+
