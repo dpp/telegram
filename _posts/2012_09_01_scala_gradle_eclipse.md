@@ -1,7 +1,7 @@
-title:Scala project using Gradle and Eclipse
-date:2012-09-01
-tags: {scala, eclipse, gradle, scalatest}
-category:programming
+[title:Scala project using Gradle and Eclipse]:
+[date:2012-09-01]:
+[tags: {scala, eclipse, gradle, scalatest}]:
+[category:programming]:
 
 **This is a work in progress. Quick notes now, and will tidy up later**
 
