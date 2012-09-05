@@ -22,10 +22,10 @@ git config --global will set the configuration 'globally'. i.e. it will be set f
 	- git config --global user.name=name
 	- git config --global user.email=email address
 - create aliases for common commands
-	-git config --global alias.co checkout
-	-git config --global alias.ci commit
-	-git config --global alias.st status
-	-git config --global alias.diffstg 'diff --cached'
+	- git config --global alias.co checkout
+	- git config --global alias.ci commit
+	- git config --global alias.st status
+	- git config --global alias.diffstg 'diff --cached'
 - Fix whitespace issues when applying a patch 'git config --global apply.whitespace fix'
 
 ## Convert Mercurial (HG) to Git
