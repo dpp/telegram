@@ -7,20 +7,34 @@ date::2012-08-24
 <p>A good overview of basic Git functionality. <a href="http://marakana.com/s/git_basics_tutorial_example,1244/index.html">Git Basics Tutorial</a></p>
 <p>A very helpful book: <a href="http://marakana.com/s/git_basics_tutorial_example,1244/index.html">Pro Git book</a></p>
 <h2>Cleaning up unwanted changes</h2>
-<ul><li>Reset entire repo to last committed state:'git reset --hard'. This doesn't remove untracked files</li><li>Remove untracked files, directorys:'git clean'. add -d to remove directories, -n to do a dry-run.</li>
+<ul>
+<li>Reset entire repo to last committed state:'git reset --hard'. This doesn't remove untracked files</li>
+<li>Remove untracked files, directorys:'git clean'. add -d to remove directories, -n to do a dry-run.</li>
 </ul>
 <h2>Useful configuration</h2>
 <p>git config --global will set the configuration 'globally'. i.e. it will be set for all repos unless overridden locally. --local sets it for the specific repo only</p>
 <ul>
-<li>Set username and email<ul><li>git config --global user.name=name</li><li>git config --global user.email=email address</li></ul></li>
+<li>Set username and email
+<ul>
+<li>git config --global user.name=name</li>
+<li>git config --global user.email=email address</li>
+</ul>
+</li>
 	<li>create aliases for common commands
-<ul><li>git config --global alias.co checkout</li><li>git config --global alias.ci commit</li><li>git config --global alias.st status</li><li>git config --global alias.diffstg 'diff --cached'</li></ul></li>
+<ul>
+<li>git config --global alias.co checkout</li>
+<li>git config --global alias.ci commit</li>
+<li>git config --global alias.st status</li>
+<li>git config --global alias.diffstg 'diff --cached'</li>
+</ul>
+</li>
 <li>Fix whitespace issues when applying a patch 'git config --global apply.whitespace fix'</li>
 </ul>
 <h2>Convert Mercurial (HG) to Git</h2>
 Instead of using hggit you may use hg-fast-export.
 
-<ol><li>Create new git repo on remote server.</li>
+<ol>
+<li>Create new git repo on remote server.</li>
 <li>git clone git://repo.or.cz/fast-export.git</li>
 <li>mkdir new_git_repo</li>
 <li>cd new_git_repo</li>
@@ -34,11 +48,15 @@ Instead of using hggit you may use hg-fast-export.
 Appears hg-git introduces its own changesets into the stream...
 <h2>Patches</h2>
 <p><a href="http://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git">Patch tutorial</a></p>
-<p>Summary:If all patches in a branch, simplifies process.</p><p>'git format-patch master --stdout > patchName.patch.</p>
+<p>Summary:If all patches in a branch, simplifies process.</p>
+<p>'git format-patch master --stdout > patchName.patch.</p>
+This will extract all changes on current branch from master branch. If want changes relative to another branch, change the master to something else.
 <p>To apply patch:</p>
 <ul><li>Check what patch will do: 'git apply --stat patchName.patch</li>
 <li>Test patch: 'git apply --check patchName.patch</li>
-<li>Apply patch:'git apply patchName.patch'.</li><li>If you want it signed because it's a patch from someone else, use 'git am --signoff < patchName.patch', and signed-off-by metadata will be added to the commit message.</li></li></ul>
+<li>Apply patch:'git apply patchName.patch'.</li>
+<li>If you want it signed because it's a patch from someone else, use 'git am --signoff < patchName.patch', and signed-off-by metadata will be added to the commit message.</li></li>
+</ul>
 <p>If get whitespace issues, can remove patch, and turn on apply.whitespace fix to config</p>
 
 <h2>Interactive Staging</h2>
