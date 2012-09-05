@@ -1,5 +1,5 @@
-title:Git Notes
-date::2012-08-24
+[title:Git Notes]:
+[date:2012-08-24]:
 
 <p>A collection of my Git learnings. I'm VERY familiar with Mercurial but making the switch to Git. This will collect my thoughts, and notes for reference purposes. This is not a comparison of hg and Git. I just want to be familiar with both.</p>
 

@@ -1,5 +1,5 @@
-title:Linux Notes
-date::2012-08-24
+[title:Linux Notes]:
+[date:2012-08-24]:
 
 ## SSH
 
