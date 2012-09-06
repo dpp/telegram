@@ -4,18 +4,22 @@
 A collection of my Git learnings. I'm VERY familiar with Mercurial but making the switch to Git. This will collect my thoughts, and notes for reference purposes. This is not a comparison of hg and Git. I just want to be familiar with both.
 
 ## Getting started
-
 A good overview of basic Git functionality. [Git Basics Tutorial](http://marakana.com/s/git_basics_tutorial_example,1244/index.html)
 
 A very helpful book: [Pro Git book](http://marakana.com/s/git_basics_tutorial_example,1244/index.html)
 
 ## Cleaning up unwanted changes
-
 - Reset entire repo to last committed state:'git reset --hard'. This doesn't remove untracked files
 - Remove untracked files, directorys:'git clean'. add -d to remove directories, -n to do a dry-run.
 
-## Useful configuration
+## Retrieving 'lost' changes
+If you're not careful, you can appear to lose changes. Doing a careless checkout or reset --HARD can move you to a location, leaving some changesets with no connection to existing code.
 
+git reflog is your friend. It keeps track of where you've been, and allows you to recover lost items. Reflog will show the previous locations of HEAD, and should have some sort of message that indicates where you did a hard relocate and left orphaned changesets.
+
+Doing a git reset --HARD back should restore the changes.
+
+## Useful configuration
 git config --global will set the configuration 'globally'. i.e. it will be set for all repos unless overridden locally. --local sets it for the specific repo only
 
 - Set username and email
@@ -29,7 +33,6 @@ git config --global will set the configuration 'globally'. i.e. it will be set f
 - Fix whitespace issues when applying a patch 'git config --global apply.whitespace fix'
 
 ## Convert Mercurial (HG) to Git
-
 Instead of using hggit you may use hg-fast-export.
 
 1. Create new git repo on remote server.
@@ -45,7 +48,6 @@ Instead of using hggit you may use hg-fast-export.
 Appears hg-git introduces its own changesets into the stream...
 
 ## Patches
-
 [Patch tutorial](http://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git)
 
 Summary:If all patches in a branch, simplifies process.
@@ -64,11 +66,9 @@ To apply patch:
 If get whitespace issues, can remove patch, and turn on apply.whitespace fix to config
 
 ## Interactive Staging
-
 One can obviously use the command-line tools, but I find some things easier to do with a GUI. git gui is very helpful for doing this. Allows one to see differences, and move lines/hunks quickly from/to staging.
 
 ## Mimic incoming and outgoing
-
 Haven't gotten this working correctly just yet, but once figure it out, will update.
 From Stack Overflow [question](http://stackoverflow.com/questions/231211/using-git-how-do-i-find-modified-files-between-local-and-remote/6389348#6389348)
 
