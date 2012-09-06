@@ -1,6 +1,8 @@
 [title:Linux Notes]:
 [date:2012-08-24]:
 
+List of common Linux things I've found useful.
+
 ## SSH
 
 If using a .pem file, don't forget to add to ssh. Use 'ssh-add {key}'
