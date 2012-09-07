@@ -1,7 +1,7 @@
 [title:Cucumber-Chef Notes]: /
 [date:2012-09-07]: /
 [menu:cucumber-chef]: /
-[serve:false]/
+[serve:false]: /
 # Cucumber-chef Usage
 
 ## Gotchas
