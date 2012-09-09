@@ -1,4 +1,4 @@
-[title:Windows Powershell]:
+[title:Windows Powershell]: /
 
 Still on Windows? Seriously consider Powershell. Amazing replacement for the command prompt.
 
