@@ -1,6 +1,8 @@
 [title:Git Notes]:
 [date:2012-08-24]:
 
+<div data-lift="htab-list"></div>
+
 A collection of my Git learnings. I'm VERY familiar with Mercurial but making the switch to Git. This will collect my thoughts, and notes for reference purposes. This is not a comparison of hg and Git. I just want to be familiar with both.
 
 ## Getting started
@@ -98,3 +100,11 @@ You'll get those errors if your local branch isn't configured with an upstream. 
  	upvote
  	flag
 worked well for me, cheers – Mark Simpson Feb 10 at 11:37
+
+
+## Git on Windows
+If you're using windows, then install Git from the main git page. This will also install git-bash, but if you don't want to work with a unix like command-line, consider using Powershell 2.0. There are a couple of handy items to help out. One for some command prompt changes that acknowledge git, and another for using ssh-agent.
+
+- [ps-get to install posh-git](http://haacked.com/archive/2011/12/13/better-git-with-powershell.aspx): Use psget to install posh-git rather than following the instructions on the posh-git link
+- [posh-git](http://lostechies.com/keithdahlby/category/posh-git/)
+- [ssh-agent helper](http://markembling.info/2009/09/ssh-agent-in-powershell)
