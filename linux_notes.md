@@ -1,5 +1,6 @@
-[title:Linux Notes]:
-[date:2012-08-24]:
+[title:Linux Notes]: /
+[date:2012-08-24]: /
+[menu:Linux]: /
 
 List of common Linux things I've found useful.
 

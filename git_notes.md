@@ -1,5 +1,6 @@
-[title:Git Notes]:
-[date:2012-08-24]:
+[title:Git Notes]: /
+[date:2012-08-24]: /
+[menu:Git]: /
 
 <div data-lift="htab-list"></div>
 

@@ -2,18 +2,15 @@
 [date:2012-09-01]: /
 [tags: {scala, eclipse, gradle, scalatest}]: /
 [category:programming]: /
-[path:/2012/09/01/scala-gradle-eclipse]: /
-
-**This is a work in progress. Quick notes now, and will tidy up later**
+[serve:false]: /
+# Scala development with Eclipse, Gradle and Scalatest
 
 ## Configuration ##
 The first step is to install Eclipse. The Scala-IDE doesn't support 4.2 yet, so use 3.7.2.
 
 Install the Gradle plugin as well as the Groovy plugin. This provides some gradle DSL support in build scripts (once you enable the DSL on a project in Eclipse).
 
-Also add the scala-ide ecosystem update site. This will allow for install of both Scala-IDE and Scalatest. 
-
-By using the IDE plugin for Scalatest, don't need JUnit runner. 
+Use the Scala-IDE ecosystem update site. I used the dev-master-2.9 version. This includes both Scala-IDE and ScalaTest plugins. By using the plugin, can write Scalatest files, and don't need to use the JUnit runner.
 
 For Gradle build, use the scala plugin, and also modify the test task to recognize scalatest tests. See [Getting Into Scala and Gradle](http://martingladdish.co.uk/blog/2010/10/31/getting-into-scala-and-gradle/) for good instructions.
 
@@ -28,6 +25,6 @@ Suggest using this code rather than code used on previous link
 
 Currently, not the greatest. Added test with pending and with failure. Works fine within Eclipse, as shows test that's in error.
 
-When run via Gradle build, build merely fails stating that ScalaTest didn't complete successfully. Need to dig into having this be much better. Is this how it works with Ant (as that's what we're using in the Gradle build too).
+When run via Gradle build, can run normally, and Gradle will report that tests failed. Unfortunately, by default, it doesn't show any details.
 
-A little more investigation, and if run gradle in --info mode for messages, see details from scalatest. Don't see a way to make this a default option when running tests, but at least they can be seen.
+To show details, one must call Gradle with the --info option. Then Scalatest will show all of its logging information. I haven't found a way around this yet, but with any luck, I will.
