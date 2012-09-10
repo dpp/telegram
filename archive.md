@@ -1,4 +1,4 @@
-title: Archive 
+title: Archive
 order: 30
 show-if: has_blog
 

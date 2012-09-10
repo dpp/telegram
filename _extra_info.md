@@ -3,7 +3,6 @@ blog_root: /
 site_title: Stuff of Interest
 template_url: https://github.com/telegr-am/template-blue.git
 
-
 ---
 
 This file contains _Extra Info_ about your site.  You can
