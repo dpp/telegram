@@ -2,18 +2,19 @@
 [date:2012-08-24]: /
 [menu:Linux]: /
 
+# Linux Notes  ###
 List of common Linux things I've found useful.
 
-## SSH
+## SSH  ###
 
 If using a .pem file, don't forget to add to ssh. Use 'ssh-add {key}'
 
-## Ports and processes
+## Ports and processes  ###
 ps aux to show all processes. ps f -p {id} to see details for a specific process id
 
 port usage. lsof -i :8080 will show if something is using port. Can use process id to figure out exactly what it is. Also, netstat -lntp shows all listening ports with program name
 
-## Terminal manager  #######
+## Terminal manager  ###
 Started using Console2 on windows, and like having multiple command prompts in one window. dvtm is available for most linux systems, and provides similar functionality.
 
 all commands start with ctrl-g

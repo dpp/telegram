@@ -3,9 +3,9 @@
 [tags: {scala, eclipse, gradle, scalatest}]: /
 [category:programming]: /
 [serve:false]: /
-# Scala development with Eclipse, Gradle and Scalatest
+# Scala development with Eclipse, Gradle and Scalatest   ###
 
-## Configuration ##
+## Configuration  ###
 The first step is to install Eclipse. The Scala-IDE doesn't support 4.2 yet, so use 3.7.2.
 
 Install the Gradle plugin as well as the Groovy plugin. This provides some gradle DSL support in build scripts (once you enable the DSL on a project in Eclipse).
