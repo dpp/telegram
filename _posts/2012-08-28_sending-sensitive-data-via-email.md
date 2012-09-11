@@ -1,5 +1,5 @@
 [title: Sending sensitive data via email]: /
-[alias: /2012/08/28/sending-sensitive-data-via-email/]: /
+[path: /2012/08/28/sending-sensitive-data-via-email/]: /
 [date: 2012-08-28]: /
 
 A new site has come to my attention for sending sensitive data to another user. Assuming the site actually does what it says, this can be very useful.

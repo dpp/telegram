@@ -1,5 +1,5 @@
 [title: Programmer tools of the trade]: /
-[alias: /2011/04/26/programmer-tools-of-the-trade/]: /
+[path: /2011/04/26/programmer-tools-of-the-trade/]: /
 [date: 2011-04-26]: /
 
 Tools of the trade for a Programmer are many. Everyone thinks of the computer, the language, various frameworks, and possibly an IDE. Fewer think about the keyboard and pointing device they use, and even fewer would consider the desk or chair they're using as tools of their trade. 
