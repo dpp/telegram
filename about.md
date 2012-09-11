@@ -2,7 +2,7 @@
 [order: 10]: /
 [alias: /about/]: /
 
-# About
+# About  ###
 Welcome to my collection of things I either don't want to forget or things I wanted to write about.
 
 I'm a software developer and have been in the industry for 20+years. By day, I'm a Java J2EE developer, developing websites for my employer's clients. By night, I'm learning some new technology to keep my skills sharp.
