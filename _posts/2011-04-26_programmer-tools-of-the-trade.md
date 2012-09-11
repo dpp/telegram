@@ -2,7 +2,6 @@
 [alias: /2011/04/26/programmer-tools-of-the-trade/]: /
 [date: 2011-04-26]: /
 
-# Programmer tools of the trade  ###
 Tools of the trade for a Programmer are many. Everyone thinks of the computer, the language, various frameworks, and possibly an IDE. Fewer think about the keyboard and pointing device they use, and even fewer would consider the desk or chair they're using as tools of their trade. 
 
 But think about it a moment. We're in front of our computers at least 8 hours per day. Are your back, posterior and fingers not worth considering?

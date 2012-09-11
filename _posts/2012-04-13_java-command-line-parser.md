@@ -2,7 +2,6 @@
 [alias: /2012/04/13/java-command-line-parser/]: /
 [date: 2012-04-13]: /
 
-# Java command line parser  ###
 Had a need to write a command line utility for the project I'm on. Was originally using the Apache Commons CLI parser, but it was cumbersome and not that powerful.
 
 Did a bit of searching on StackOverflow, and found <a href="http://jcommander.org/">JCommander</a>. Written by Cedric Beust (author of <a href="testng.org">TestNG</a>). It's a very powerful toolset for dealing with commandlines.
