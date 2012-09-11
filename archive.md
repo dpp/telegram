@@ -1,5 +1,5 @@
 [title: Archive]: /
-[order: 1000]: /
+[order: 10]: /
 [show-if: has_blog]: /
 
 <div class="page-header">
