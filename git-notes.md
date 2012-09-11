@@ -1,6 +1,6 @@
 [title:Git Notes]: /
-[date:2012-08-24]: /
 [menu:Git]: /
+[order:20]: /
 [template:page_toc]: /
 
 # Git Notes  ###

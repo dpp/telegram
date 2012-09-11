@@ -1,7 +1,7 @@
 [title:Scala project using Gradle and Eclipse]: /
-[date:2012-09-01]: /
 [tags: {scala, eclipse, gradle, scalatest}]: /
 [category:programming]: /
+[order:20]: /
 [serve:false]: /
 # Scala development with Eclipse, Gradle and Scalatest   ###
 

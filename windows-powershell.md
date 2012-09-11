@@ -1,4 +1,5 @@
 [title:Windows Powershell]: /
+[order:20]: /
 
 Still on Windows? Seriously consider Powershell. Amazing replacement for the command prompt.
 

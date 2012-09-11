@@ -1,5 +1,5 @@
 [title:Linux Notes]: /
-[date:2012-08-24]: /
+[order:20]: /
 [menu:Linux]: /
 
 # Linux Notes  ###
