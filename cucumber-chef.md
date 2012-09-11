@@ -1,12 +1,6 @@
 [title:Cucumber-Chef Notes]: /
-[date:2012-09-07]: /
 [menu:cucumber-chef]: /
-[serve:false]: /
 # Cucumber-chef Usage ###
-
-cucumber-nagios
-aruba
-cuken
 
 ## Gotchas and Helpful Advice ###
 - if use `create`, the feature is created in the user's home directory.
@@ -15,6 +9,7 @@ cuken
 - if the chef-client can't find something (cookbook/role/recipe), it tends to report a "Net::HTTPServerException: 412 "Precondition Failed"" message. Use the diagnose command to see the chef.log. Generally the chef-client can't find something on the server, and the chef.log will provide details. You will have to scroll up a ways to find out exactly what's missing, but it should be there.
 - When running into issues, remember diagnose command. By default, shows chef-stacktrace.out and first line of chef.log. If want more of chef.log file, need to pass -n with number of lines. If don't want chef-stacktrace.out, pass --no-strace. --no-log for no chef.log output.
 - Chef Steps: the path is relative to the features location BUT will only find files within the features directory. When running tests, uploads all files in the features directory to the AWS test server. Assumes all directories OTHER THAN support are features, and will validate them. So, cookbooks need to be shimmed into the support directory so features can confirm that they're uploaded correctly.
+- uploading databags. If have app/someitem as the contents, want |app|./support/databags/app| as the table entry. This will upload all items within the app directory as databag items.
 
 ## Configuration ###
 Instructions are at [cucumber-chef instructions](https://github.com/Atalanta/cucumber-chef/wiki). In order to use the test project, ensure you've uploaded the community chef-client cookbook to the generated Chef Server.
