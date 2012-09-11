@@ -1,6 +1,6 @@
 [title:Cucumber-Chef Notes]: /
 [menu:cucumber-chef]: /
-[order:100]:/
+[order:40]:/
 # Cucumber-chef Usage ###
 
 ## Gotchas and Helpful Advice ###
