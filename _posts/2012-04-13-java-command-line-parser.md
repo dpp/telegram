@@ -1,6 +1,6 @@
-[title: Java command line parser]: /
-[path: /2012/04/13/java-command-line-parser/]: /
-[date: 2012-04-13]: /
+title:	Java command line parser
+path:	/2012/04/13/java-command-line-parser
+date:	2012-04-13
 
 Had a need to write a command line utility for the project I'm on. Was originally using the Apache Commons CLI parser, but it was cumbersome and not that powerful.
 

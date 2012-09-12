@@ -1,6 +1,6 @@
-[title: Team Lead book]: /
-[path: /2012/04/13/team-lead-book/]: /
-[date: 2012-04-13]: /
+title:	Team Lead book
+path:	/2012/04/13/team-lead-book
+date:	2012-04-13
 
 Here's a book written for the average developer being moved to a Team Lead role. Well worth checking out. The authors website can be found at <a href="http://5whys.com/">Elastic Team Leadership in Software</a>.
 
